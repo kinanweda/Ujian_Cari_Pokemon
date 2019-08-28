@@ -27,7 +27,7 @@ def func(pct, populasi):
     return "{:.1f}%".format(pct)
 wedges, texts, autotexts = ax.pie(Populasi, labels=Negara ,autopct=lambda pct: func(pct, Populasi),
                                   textprops=dict(color="k"))
-plt.title('Jumlah Populasi')
+plt.title('Percetage Populasi')
 plt.setp(autotexts, size=10, weight='bold')
 plt.axis('equal')
 plt.grid(True)
