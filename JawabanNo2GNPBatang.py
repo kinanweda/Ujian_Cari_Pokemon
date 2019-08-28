@@ -34,7 +34,7 @@ for i in range(len(Negara)):
 
 plt.subplots_adjust(left=.12,bottom=.24,right=.9,top=.88, wspace=.4, hspace=.4)
 
-plt.title('Diagram Batang')
+plt.title('Jumlah Populasi Negara ASEAN')
 plt.grid(True)
 plt.xlabel('Negara ASEAN')
 plt.ylabel('Populasi x 100jt Jiwa')
