@@ -10,7 +10,7 @@ conn = mysql.connector.connect(
     host =  '127.0.0.1',
     port = 3306,
     user = 'kinanweda',
-    passwd = 'Jimbamamba22',
+    passwd = '12345',
     database = 'world' 
 )
 
